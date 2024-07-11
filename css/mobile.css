@@ -33,4 +33,23 @@
         flex-direction: column;
         gap: 15px;
     }
+    .choose {
+        padding: 50px 0;
+    }
+    .choose-row {
+        flex-direction: column;
+    }
+    .choose-content {
+        padding-left: 0;
+        order: -1;
+        text-align: center;
+        border: none;
+    }
+    .choose-content h2 {
+        font-size: 28px87;
+        margin-bottom: 10px;
+    }
+    .choose-content p {
+        font-style: 14px;
+    }
 }
