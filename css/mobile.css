@@ -52,4 +52,7 @@
     .choose-content p {
         font-style: 14px;
     }
+    .hero {
+        background-attachment:flex ;
+    }
 }
