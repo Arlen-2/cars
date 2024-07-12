@@ -92,4 +92,23 @@
     .window-tint {
         padding: 40px 0;
     }
+    .ppf {
+        padding: 50px 0 ;
+    }
+    .pff-row {
+         flex-direction: column;
+    }
+    .ppf-title { 
+        font-size: 38px;
+        text-align: center;
+
+    }
+    .ppf-content {
+        margin-right: 0;
+        width: 100%;
+        max-width: 100%;
+    }
+    .ppf-car-row { 
+        width: 80vw;
+    }
 }
