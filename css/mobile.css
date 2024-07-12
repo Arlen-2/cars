@@ -73,28 +73,23 @@
 
     .window-coating {
         flex-direction: column;
-        padding: none;
+        
     }
-
-    .window-tint-left-text {
-        font-size: 86px;
+    .window-coating .window-coating-column {
+        padding: 0;
+        border: none;
     }
-
     .window-tint-row {
-        display: flex;
-         gap: 50px;
         flex-direction: column;
     }
-   .window-tint-content {
-    text-align: center;
-   }
-   .ppf-title {
-    font-size: 24px;
-    line-height: none;
-   }
-   .ppf-cars-row{
-    flex-direction: column;
-    align-items: flex-end;
-   }
-   
+    .windowtint-content {
+        text-align: center;
+    }
+    .window-tint-imaga img {
+        max-width: 100%;
+        margin-left: 10px;
+    }
+    .window-tint {
+        padding: 40px 0;
+    }
 }
