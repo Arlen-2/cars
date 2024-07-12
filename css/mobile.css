@@ -82,12 +82,12 @@
     .window-tint-row {
         flex-direction: column;
     }
-    .windowtint-content {
+    .window-tint-content {
         text-align: center;
     }
     .window-tint-imaga img {
         max-width: 100%;
-        margin-left: 10px;
+        margin-left: 5px;
     }
     .window-tint {
         padding: 40px 0;
