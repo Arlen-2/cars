@@ -1,58 +1,100 @@
 @media (max-width: 560px) {
+
     .nav,
     .phone {
-        display:none ;
+        display: none;
     }
+
     .container {
         padding: 0 20px;
     }
+
     .header-row {
         justify-content: space-between;
-       gap: 10px;
-       padding: 15px 0;
+        gap: 10px;
+        padding: 15px 0;
     }
-    .book-nav{
+
+    .book-nav {
         font-style: 14px;
         padding: 10px 25px;
         width: max-content;
     }
+
     .logo {
         font-size: 12px;
     }
+
     .hero-title {
         font-size: 36px;
     }
+
     .hero-description {
         font-style: 16px;
         line-height: 1.4;
     }
+
     .hero-actions {
         flex-direction: column;
     }
+
     .hero-customers {
         flex-direction: column;
         gap: 15px;
     }
+
     .choose {
         padding: 50px 0;
     }
+
     .choose-row {
         flex-direction: column;
     }
+
     .choose-content {
         padding-left: 0;
         order: -1;
         text-align: center;
         border: none;
     }
+
     .choose-content h2 {
         font-size: 28px87;
         margin-bottom: 10px;
     }
+
     .choose-content p {
         font-style: 14px;
     }
+
     .hero {
-        background-attachment:flex ;
+        background-attachment: flex;
     }
+
+    .window-coating {
+        flex-direction: column;
+        padding: none;
+    }
+
+    .window-tint-left-text {
+        font-size: 86px;
+    }
+
+    .window-tint-row {
+        display: flex;
+         gap: 50px;
+        flex-direction: column;
+    }
+   .window-tint-content {
+    text-align: center;
+   }
+   .ppf-title {
+    font-size: 24px;
+    line-height: none;
+   }
+   .ppf-cars-row{
+    flex-direction: column;
+    align-items: flex-end;
+   }
+   
 }
